@@ -1,0 +1,41 @@
+/** Product Jumbo CSS if needed **/
+
+#product-nav {
+	margin-top: 0;
+}
+
+#product-nav .container {
+	width: 100%;
+}
+
+#product-nav .product-jumbo-navbar {
+	padding: 0;
+}
+
+#product-jumbo .container {
+	width:100%;
+}
+
+#product-jumbo .product-jumbo-strech {
+	padding: 0;
+}
+
+@-moz-document url-prefix() {
+	#product-jumbo .product-jumbo-strech {
+		margin-top: -10px;
+	}
+}
+
+.not-front.not-logged-in #product-jumbo {
+	margin-top: -10px;
+}
+
+.page-support.not-logged-in #product-jumbo, 
+#product-jumbo {
+	margin-top: 30px;
+	margin-bottom: 2em;
+}
+
+.logged-in.dealer.navbar-tray-open #product-jumbo {
+	margin-top: -10px;
+}

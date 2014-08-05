@@ -1,4 +1,6 @@
 product_jumbo
 =============
 
-full width panel 
+full width template for kalatheme
+
+Tweak the css as needed
